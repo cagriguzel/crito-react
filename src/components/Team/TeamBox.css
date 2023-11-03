@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", Roboto;
+  }
+  .cards {
+    margin-top: 100px;
+  }
+  
+  .card {
+  }
+  .card-title {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .card-price {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  
+  .special {
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-decoration: line-through;
+  }
+  
