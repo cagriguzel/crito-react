@@ -10,6 +10,8 @@ import ChooseUs from '../components/ChooseUs/ChooseUs'
 import ProjectCase from '../components/Projects/ProjectCase'
 import Team from '../components/Team/Team'
 
+
+
 const Home = () => {
   return (
     <>

@@ -1,0 +1,46 @@
+
+
+  .parent{
+    background:#F0D082 ;
+  }
+  .slider {
+    margin:0 20px;
+    overflow:"hidden";
+    /* padding:2rem 0; */
+    align-items: center;
+    text-align: center;
+    
+  }
+  .name{
+        color: grey;
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        color: #191919;
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+  }
+
+  
+  
+  .slider img {
+    object-fit: cover;
+    display: inline-block;
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 8px;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(255, 68, 68);
+  }
+  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: rgb(255, 68, 68) !important;
+  }

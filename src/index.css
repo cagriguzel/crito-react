@@ -17,8 +17,29 @@ html, body {
   font-weight: 600;
   font-size: 16px;
   border-radius: 25px;
-  display: inline-block;
+  display: block;
   white-space: nowrap;
+  height: -moz-fit-content;
+  height: fit-content;
+  width:fit-content
+  
+}
+
+.btn-yellow-black {
+  background-color: #F9D783;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 54px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+  display: block;
+  white-space: nowrap;
+  height: -moz-fit-content;
+  height: fit-content;
+  width:fit-content
+  
 }
 .btn-yellow i {
   margin-left: 8px;
@@ -898,6 +919,8 @@ header .container .menu .btn-yellow {
     margin-bottom: 30px;
   }
 }
+
+
 .testimonial {
   background-color: #F0D082;
   padding: 7rem 0;

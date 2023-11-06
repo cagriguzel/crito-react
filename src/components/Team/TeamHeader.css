@@ -1,0 +1,24 @@
+.ourTeam {
+    background-color: #F0D082;
+  }
+  .ourTeam .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ourTeam .container .custom-button {
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+
+  @media (max-width: 576px) {
+    .ourTeam .container{
+      display: block;
+      justify-content: center;
+      
+    }
+    .custom-button{
+      display: none;
+    }
+  }

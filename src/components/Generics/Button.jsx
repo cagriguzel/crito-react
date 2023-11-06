@@ -8,6 +8,8 @@ const Button = ({type, url, text}) => {
         return 'btn-black'
       case 'transparent' : 
         return 'btn-transparent'
+      case 'yellow-black' : 
+        return 'btn-yellow-black'
       default:
         return 'btn-yellow'
     }
