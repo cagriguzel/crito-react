@@ -473,7 +473,7 @@
                                 </div>
                                 <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, dolorem iusto officia! Quis tenetur maxime, laboriosam saepe, voluptate necessitatibus tempora!"</p>
                                 <div class="client">
-                                <img src="./images/person_2_sm.jpg" alt="Image" class="img-fluid">
+                                <img src="./images/person_2_sm.jpg" alt="Image" class="img-fluid"/>
                                 <div class="title">
                                     <h3>Amanda Tulling</h3>
                                     <span>Senior Developer, Square</span>
@@ -491,7 +491,7 @@
                                 </div>
                                 <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, dolorem iusto officia! Quis tenetur maxime, laboriosam saepe, voluptate necessitatibus tempora!"</p>
                                 <div class="client">
-                                    <img src="./images/person_3_sm.jpg" alt="Image" class="img-fluid">
+                                    <img src="./images/person_3_sm.jpg" alt="Image" class="img-fluid"/>
                                     <div class="title">
                                         <h3>Jack McDogglas</h3>
                                         <span>Key Account Manager,Gobona</span>

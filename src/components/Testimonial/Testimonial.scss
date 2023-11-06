@@ -1,0 +1,91 @@
+// testimonialBox.scss
+.Testimonial{
+    background-color: #F0D082;
+    padding: 7rem 0;
+    .container{
+        background-color: white;
+    }
+
+}
+.site-section {
+    
+    &.bg-left-half {
+      // .site-section bg-left-half'a özgü stiller
+    }
+  
+    .container {
+      &.owl-2-style {
+        padding: 5rem;
+
+        
+        // .container owl-2-style'a özgü stiller
+      }
+  
+      .owl-carousel {
+        &.owl-2 {
+          // .owl-carousel owl-2'ye özgü stiller
+        }
+  
+        .media-29101 {
+            padding: 0.5rem;
+          // .media-29101'e özgü stiller
+          .stars {
+            // .stars'a özgü stiller
+            .fa-sharp.fa-solid.fa-star {
+              // Yıldızlara özgü stiller
+            }
+          }
+          
+          p {
+            // Paragraf etiketine özgü stiller
+          }
+  
+          .client {
+            display: flex;
+            // .client'a özgü stiller
+            img {
+                margin-bottom: 20px;
+                border-radius: 50%;
+                width: 80px !important;  
+              // Resme özgü stiller
+            }
+  
+            .title {
+                margin-left: 5px;
+              // Başlığa özgü stiller
+              h3 {
+                font-size: 18px;
+                font-weight: 900 !important;
+                text-transform: capitalize;
+                text-decoration: none;
+                font-family:"DM Sans", sans-serif ;
+                margin-top: 1rem;
+                
+                // H3 başlığa özgü stiller
+              }
+  
+              span {
+                font-size: 14px;
+                font-family: "Inter", sans-serif;
+                color: #acacac;
+               
+                // Span etiketine özgü stiller
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .center-content {
+    margin-top: 3rem;
+    // .center-content'e özgü stiller
+    .button {
+      // .btn-black'e özgü stiller
+      .fa-light.fa-arrow-up-right {
+        // Ok simgesine özgü stiller
+      }
+    }
+  }
+  

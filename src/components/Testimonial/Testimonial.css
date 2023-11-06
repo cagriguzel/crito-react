@@ -1,0 +1,42 @@
+.Testimonial {
+  background-color: #F0D082;
+  padding: 7rem 0;
+}
+.Testimonial .container {
+  background-color: white;
+}
+
+.site-section .container.owl-2-style {
+  padding: 5rem;
+}
+.site-section .container .owl-carousel .media-29101 {
+  padding: 0.5rem;
+}
+.site-section .container .owl-carousel .media-29101 .client {
+  display: flex;
+}
+.site-section .container .owl-carousel .media-29101 .client img {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 80px !important;
+}
+.site-section .container .owl-carousel .media-29101 .client .title {
+  margin-left: 5px;
+}
+.site-section .container .owl-carousel .media-29101 .client .title h3 {
+  font-size: 18px;
+  font-weight: 900 !important;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 1rem;
+}
+.site-section .container .owl-carousel .media-29101 .client .title span {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #acacac;
+}
+
+.center-content {
+  margin-top: 3rem;
+}

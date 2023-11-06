@@ -9,6 +9,7 @@ import Services from '@components/ourServices/Services'
 import ChooseUs from '../components/ChooseUs/ChooseUs'
 import ProjectCase from '../components/Projects/ProjectCase'
 import Team from '../components/Team/Team'
+import Testimonial from '../components/Testimonial/Testimonial'
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
         <ChooseUs/>
         <ProjectCase/>
         <Team/>
+        <Testimonial/>
         <Footer/>
       </div>
     
