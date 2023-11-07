@@ -1,0 +1,13 @@
+.articleHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    @media(max-width:996px){
+        display: block;
+        text-align: center;
+        
+      }
+  }
+

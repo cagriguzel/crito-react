@@ -10,6 +10,8 @@ import ChooseUs from '../components/ChooseUs/ChooseUs'
 import ProjectCase from '../components/Projects/ProjectCase'
 import Team from '../components/Team/Team'
 import Testimonial from '../components/Testimonial/Testimonial'
+import ArticleNews from '../components/ArticleNews/ArticleNews'
+import Newsletter from '../components/Newsletter/Newsletter'
 
 
 
@@ -27,6 +29,8 @@ const Home = () => {
         <ProjectCase/>
         <Team/>
         <Testimonial/>
+        <ArticleNews/>
+        <Newsletter/>
         <Footer/>
       </div>
     

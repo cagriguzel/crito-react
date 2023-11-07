@@ -1,0 +1,62 @@
+.mySwiper {
+  width: 100%;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image-box {
+  position: relative;
+}
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  height: 280px;
+  display: block;
+  border-radius: 5px;
+}
+.image-box .blog-date-item {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #F9D783;
+  color: #161414;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  height: 4rem;
+  width: 4rem;
+  align-items: center;
+  text-align: center;
+}
+.image-box .blog-date-item h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.news-details {
+  margin-top: 1rem;
+}
+.news-details .news-header {
+  color: #333;
+  font-weight: bold;
+}
+.news-details .news-title {
+  margin-top: 0.5rem;
+  color: #333;
+}
+.news-details .news-text {
+  margin-top: 0.5rem;
+  color: #777;
+}

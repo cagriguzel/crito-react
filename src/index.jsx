@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './views/Home';
 import Contact from './views/Contact';
 import NotFound from './views/NotFound';
+import Examples from './views/Examples';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
+        <Route path='/examples' element={<Examples />} />
        
 
       </Routes>
