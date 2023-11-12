@@ -5,8 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './views/Home';
 import Contact from './views/Contact';
 import NotFound from './views/NotFound';
-import Examples from './views/Examples';
+import News from './views/News'
+import ArticleDetails from './components/ArticleDetails/ArticleDetails';
+
+
+
+
 import './index.css';
+
+
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,7 +24,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
-        <Route path='/examples' element={<Examples />} />
+        <Route path='/news' element={<News />} />
+        <Route path='/news/:id' element={<ArticleDetails/>} />
+      
+       
+        
+        
+    
+        
        
 
       </Routes>

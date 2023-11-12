@@ -1,6 +1,6 @@
 import React from 'react';
-import RightLines from '../assets/images/background-lines-white-right.svg';
-import CritoLogo from '../assets/images/logotype-white.svg'
+import RightLines from '../../assets/images/background-lines-white-right.svg';
+import CritoLogo from '../../assets/images/logotype-white.svg'
 
 const Footer = () => {
   return (

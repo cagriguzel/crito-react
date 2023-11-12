@@ -1,12 +1,12 @@
-import React from 'react'
-import ArticleNews from '../components/ArticleNews/ArticleNews'
+// import React from 'react'
+// import ArticleNews from '../components/ArticleNewsHomePage/ArticleNews'
 
-const Examples = () => {
-  return (
-    <>
-        <ArticleNews/>
-    </>
-  )
-}
+// const Examples = () => {
+//   return (
+//     <>
+//         <ArticleNews/>
+//     </>
+//   )
+// }
 
-export default Examples
+// export default Examples

@@ -1,9 +1,9 @@
 import React from 'react'
-import paperz from '../assets/images/paperz.svg'
-import dorfus from '../assets/images/dorfus.svg'
-import martino from '../assets/images/martino.svg'
-import square from '../assets/images/square.svg'
-import gobona from '../assets/images/gobona.svg'
+import paperz from '../../assets/images/paperz.svg'
+import dorfus from '../../assets/images/dorfus.svg'
+import martino from '../../assets/images/martino.svg'
+import square from '../../assets/images/square.svg'
+import gobona from '../../assets/images/gobona.svg'
 
 const Partners = () => {
   return (

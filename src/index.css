@@ -213,6 +213,7 @@ header .container .contactinformation-bar .content-box {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 300;
+
 }
 header .container .contactinformation-bar .content-box i {
   margin-right: 5px;
@@ -297,12 +298,17 @@ header .container .menu .btn-yellow {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .showcase .container .content {
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
+
 }
+
+
+
 @media (min-width: 1200px) {
   .showcase .container .content {
     text-align: left;
@@ -347,6 +353,15 @@ header .container .menu .btn-yellow {
     margin-right: 10px;
     display: inline-block;
   }
+}
+
+@media(max-width:768px){
+.showCaseButtons {
+  display: inline-block;
+  
+  
+}
+
 }
 .showcase .container img {
   display: none;
@@ -1108,6 +1123,7 @@ header .container .menu .btn-yellow {
   outline: none;
   border: 1px solid rgba(25, 25, 25, 0.1019607843);
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1200px) {
   .newsletter .container form .btn-yellow {
@@ -1349,7 +1365,10 @@ footer .container .footer-box ul li a {
 }
 .message-box .container .input-box form .message {
   height: 20vh;
+  width: 70vw ;
   margin-bottom: 7vh;
+  border-radius: 20px;
+  border: none;
 }
 .message-box .container .input-box form button {
   width: 70vw;
