@@ -1,0 +1,51 @@
+// Assuming you have a file named Newsletter.scss
+
+.newsletter {
+    background-color: #F0EFE9;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  
+    .background-wavy-lines {
+        position: absolute;
+        bottom: 20px;
+        right: 0;
+    }
+  
+    .newsletter-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width:768px) {
+            display: block;
+            
+        }
+  
+      h2 {
+        font-family: 'DM Sans', sans-serif ;
+        font-size: 45px;
+        font-weight: 700;
+      }
+  
+      form {
+
+        input {
+            color: #191919;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 16px;
+            border-radius: 25px;
+            outline: none;
+            border: 1px solid #1919191a;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+  
+        // You can add additional styles for the Button component if needed
+      }
+    }
+  
+    // Add more styles as needed
+  }
+  

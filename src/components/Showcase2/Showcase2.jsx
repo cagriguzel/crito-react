@@ -8,8 +8,8 @@ const Showcase2 = ({text}) => {
       <div className="container">
         <div className="content">
           <div className="buttons">
-            <a href="index.html">Home</a>
-            <a href="#">Contact</a>
+            <a href="/">Home</a>
+            <a href="/contact">Contact</a>
           </div>
           <h1>{text}</h1>
         </div>

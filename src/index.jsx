@@ -7,11 +7,9 @@ import Contact from './views/Contact';
 import NotFound from './views/NotFound';
 import News from './views/News'
 import ArticleDetails from './components/ArticleDetails/ArticleDetails';
-
-
-
-
 import './index.css';
+
+
 
 
 

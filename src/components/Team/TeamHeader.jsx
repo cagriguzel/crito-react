@@ -12,7 +12,7 @@ const Team = () => {
           <SectionHeader title="Meet Our Team" description='Experience Team Members' />
         </div>
         <div className='custom-button'>
-          <Button className="custom-button" type='yellow-black' text='Browse Team' url='/team.html' />
+          <Button className="custom-button" type='yellow-black' text='Browse Team' url='/team' />
         </div>
       </div>  
     </section>

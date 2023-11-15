@@ -1,38 +1,84 @@
-// ArticleDetails.scss
-.article-detail-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  
-    .article-header {
-      text-align: center;
-      margin-bottom: 20px;
-  
-      h2 {
-        font-size: 24px;
-        color: #333;
-      }
-  
-      p {
-        font-size: 14px;
-        color: #666;
-      }
+ArticleDetails.scss
+
+.article {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.article-left {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.article-details {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  .blog-mta{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+    li{
+
+      position: relative;
+      padding-left: 20px; // İstediğiniz boşluk miktarı
+      color: #e20f0f; // Nokta rengi (örnekte kırmızı renk)
+      font-size: 18px; // İstediğiniz font boyutu
+      list-style-type: none;
+   
     }
-  
-    img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 20px;
+    li::before {
+      content: '\2022'; // Unicode karakteri, yani bir nokta
+      position: absolute;
+      left: 0;
+      color: #e20f0f; // Nokta rengi (örnekte kırmızı renk)
     }
-  
-    .article-content {
-      font-size: 16px;
-      color: #333;
-      line-height: 1.6;
-  
-      p {
-        margin-bottom: 15px;
-      }
+
     }
   }
   
+
+  // p {
+  //   margin: 5px 10px;
+  // }
+}
+
+.articleImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.article-content {
+  font-size: 28px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  p{
+
+  }
+
+  span.more {
+    display: none;
+  }
+
+  &.show-more {
+    span.more {
+      display: inline;
+    }
+  }
+}
+
+

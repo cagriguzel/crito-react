@@ -9,7 +9,7 @@ const Footer = () => {
       <img className="background-right-lines" src={RightLines} alt="" />
       <div className="container">
         <div className="logotype">
-          <a href="index.html">
+          <a href="/">
             <img src= {CritoLogo} alt="crito-logo" />
           </a>
           <p>

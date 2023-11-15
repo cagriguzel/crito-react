@@ -10,7 +10,7 @@ const Features = () => {
         <div className="container">
           <div className="features-left">
               <SectionHeader title="Features" description="Our Accounting is trusted by thousand of companies"/>
-              <Button type="yellow" text="Learn More" url="/features.html"/>
+              <Button type="yellow" text="Learn More" url="/features"/>
           </div>
           <div className="features-right">
               <FeaturesBox icon="fa-handshake" title="Business Advice" />

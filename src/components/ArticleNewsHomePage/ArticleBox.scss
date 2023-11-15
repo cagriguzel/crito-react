@@ -2,6 +2,7 @@
     width: 100%;
     padding: 1rem;
     margin-bottom: 5rem;
+    
   }
   
   .card {
@@ -11,16 +12,21 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     transition: transform 0.3s;
-    height: 55vh;
+    height:fit-content;
+    min-height: 60vh;
     cursor: pointer;
+   
+    
   
     &:hover {
       transform: scale(1.05);
     }
+
   }
   
   .image-box {
     position: relative;
+    
   
     img {
       max-width: 100%;
@@ -48,12 +54,14 @@
       h4 {
         margin: 0;
         font-size: 18px;
+        
       }
     }
   }
   
   .news-details {
     margin-top: 1rem;
+    
   
     .news-header {
       color: #333;
@@ -68,6 +76,8 @@
     .news-text {
       margin-top: 0.5rem;
       color: #777;
+
+      
       
     }
   }

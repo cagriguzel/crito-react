@@ -11,7 +11,7 @@ const ArticleHeader = () => {
             <SectionHeader title="Article & News" description="Get Every Single Article & News" />
             </div>
             <div className="customButton">
-            <Button className="button" type="transparent" text="Browse Articles" url="/articles.html" />
+            <Button className="button" type="transparent" text="Browse Articles" url="/news" />
             </div>
         </div>
     </div>

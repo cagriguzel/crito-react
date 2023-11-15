@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .articleBox {
   display: flex;
   flex-wrap: wrap;
@@ -7,7 +8,6 @@
 
 .card.container {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   margin: 5px;
   padding: 10px;
@@ -17,17 +17,25 @@
   text-decoration: none;
 }
 
-.image-box img {
-  max-width: 390px;
-  height: 250px;
+.image-box {
+  width: 100%;
   position: relative;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%; /* Resmi kartın genişliğiyle aynı yapar */
+  height: 250px; /* veya istediğiniz bir yükseklik */
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 5px;
 }
 
 .blog-item {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #F9D783;
+  background-color: #f9d783;
   color: #161414;
   padding: 5px 10px;
   border-radius: 20px;
@@ -37,6 +45,7 @@
   align-items: center;
   text-align: center;
 }
+
 .blog-item h4 {
   margin: 0;
   font-size: 18px;
@@ -44,13 +53,18 @@
 
 .news-header {
   font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .news-title {
-  font-size: 1.5rem;
+  font-size: 24px;
+  font-family: "DM Sans", sans-serif;
   margin: 0;
+  margin-bottom: 15px;
 }
 
 .news-text {
+  font-size: 16px;
+  font-weight: 400;
   margin: 0;
 }

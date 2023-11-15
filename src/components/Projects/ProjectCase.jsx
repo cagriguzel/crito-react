@@ -20,7 +20,7 @@ const ProjectCase = () => {
           <ProjectBox title="Business Insights is an important piece of your business" image={Article4} url="/projects.html/4"/>
         </div>
         <div className="center-content">
-        <Button type="black" url="/projects.html" text="All Recent Projects"/>
+        <Button type="black" url="/projects" text="All Recent Projects"/>
         </div>
       </div>
     </section>

@@ -1,30 +1,188 @@
-.article-detail-container {
-  max-width: 800px;
-  margin: 0 auto;
+/* ArticleDetails.scss  */
+.article {
   padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: none;
+  @media (max-width:1200px){
+    display: block;
+  }
 }
-.article-detail-container .article-header {
-  text-align: center;
-  margin-bottom: 20px;
+
+.article-left {
+  background-color: #fff;
+  margin-right: 20px;
+  /* padding: 20px; */
+  /* margin-top: 20px; */
+  /* border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
-.article-detail-container .article-header h2 {
-  font-size: 24px;
-  color: #333;
+
+.article-left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "DM Sans", sans-serif;
 }
-.article-detail-container .article-header p {
+
+.article-details {
+  color: #555;
   font-size: 14px;
-  color: #666;
+  margin-bottom: 20px;
+  display: flex;
 }
-.article-detail-container img {
-  max-width: 100%;
+.article-details .blog-mta {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.article-details .blog-mta li{
+  position: relative;
+  padding-left: 30px; 
+  color: #555; 
+  font-size: 14px;
+  list-style-type: none;
+
+  &::before {
+    content: '\2022'; 
+    position: absolute;
+    left: 0;
+    width: 10px; 
+    height: 10px; 
+    background-color: #f9d783; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent; 
+  }
+
+}
+/* .article-details .blog-mta li:before {
+  color: burlywood;
+} */
+
+.articleImg {
+  width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
-.article-detail-container .article-content {
-  font-size: 16px;
-  color: #333;
+
+.article-content {
+  font-size: 28px;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
-.article-detail-container .article-content p {
-  margin-bottom: 15px;
+
+.content-section p{
+  font-size: 18px;
+  line-height: 2 ;
+}
+.article-content span.more {
+  display: none;
+}
+.article-content.show-more span.more {
+  display: inline;
+}
+
+.blog-ex-tag{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  
+  
+
+}
+.blog-ex-tag li{
+  height: 30px;
+  padding-left:20px ;
+  padding-right: 20px;
+  width: fit-content;
+  background-color: #F0EFE9;
+  list-style-type: none;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-ex-tag li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.ArticleRight{
+  margin-top: 155px;
+}
+
+.Posts{
+  padding: 4rem;
+  border: 1px solid rgba(25, 25, 25, 0.2);
+  background: var(--clr-white);
+  margin-bottom: 3rem; }
+  .Posts:last-child {
+    margin-bottom: 0; }
+  /* padding: 30px;
+  border: 0.1px solid rgba(25, 25, 25, 0.2); */
+  
+ 
+}
+
+.Posts h4{
+  margin-bottom: 1.5rem; 
+}
+
+.Posts h4 ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Posts ul li{
+  list-style-type: none;
+  margin-bottom: 12px;
+  font-size:16px ;
+  font-weight: 600;
+  position: relative;
+ 
+  
+}
+
+.PostsList:not(:last-child):after {
+  /* Son <li> hariç diğer <li> etiketlerine alt çizgi ekler */
+  content: '';
+  position: absolute;
+  bottom: -6px; /* Çizgiyi <li> etiketinin altına yerleştirir */
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(25, 25, 25, 0.2);
+}
+
+
+.Posts ul li span{
+  color: rgba(25, 25, 25, 0.6)
+
+}
+
+.Categories{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 30px;
+  border: 1px solid rgba(25, 25, 25, 0.2);
+  background: var(--clr-white);
+
+}
+
+.Categories li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.Categories li span{
+  color: rgba(25, 25, 25, 0.6)
 }

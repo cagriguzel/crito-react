@@ -1,25 +1,3 @@
-// import React from 'react';
-
-// const MessageBox = () => {
-//   return (
-//     <section className="message-box">
-//       <div className="container">
-//         <h3 className="title">Leave us a message<br />for any information.</h3>
-//         <div className="input-box">
-//           <form>
-//             <input type="text" placeholder="Name*" />
-//             <input type="text" placeholder="Email*" />
-//             <input className="message" type=" " placeholder="   Your Message*"/>
-//             <button className="btn-yellow">Send Message <i className="fa-light fa-arrow-up-right"></i></button>
-//           </form>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default MessageBox;
-
 import React, { useState } from 'react';
 
 const MessageBox = () => {
@@ -34,6 +12,17 @@ const MessageBox = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
+    if (name === 'name') {
+      if (value.length < 3) {
+        setFormError('Name must be at least three characters long.');
+      } else if (/\d/.test(value)) {
+        setFormError('Name cannot contain numbers.');
+      } else {
+        setFormError('');
+      }
+    }
+
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
@@ -45,6 +34,11 @@ const MessageBox = () => {
 
     if (!formData.name || !formData.email || !formData.message) {
       setFormError('All fields are required.');
+      return;
+    }
+
+    if (formError) {
+      
       return;
     }
 
@@ -116,3 +110,6 @@ const MessageBox = () => {
 };
 
 export default MessageBox;
+
+
+

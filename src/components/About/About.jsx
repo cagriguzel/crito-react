@@ -29,7 +29,7 @@ const About = () => {
               voluptates vitae deserunt perspiciatis.
             </p>
             <span className="about-end">
-              <Button text="Learn More" url="/about.html"/>
+              <Button text="Learn More" url="/about"/>
               <div className="button">
                 <i className="fa-sharp fa-light fa-circle-play"></i>
                 <h6>Intro Video</h6>

@@ -11,7 +11,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   transition: transform 0.3s;
-  height: 55vh;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 60vh;
   cursor: pointer;
 }
 .card:hover {
