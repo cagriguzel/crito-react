@@ -87,7 +87,7 @@ const TestimonialBox = () => {
           ))}
         </OwlCarousel>
         <div className="center-content">
-            <Button className="button" type='black' text='All Reviews' url='/reviews.html'/>
+            <Button className="button" type='black' text='All Reviews' url='/reviews'/>
         </div>
       </div>
     </div>
