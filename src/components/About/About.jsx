@@ -50,11 +50,11 @@ const About = () => {
 
       {isVideoVisible && (
         <div className="video-overlay">
-          <div className="video-container">
+          <div className="video-container" style={{ width: '70vw' }}>
             <button className="close-button" onClick={hideVideo}>X</button>
             <iframe
-              width="560"
-              height="315"
+              width="100%"
+              height="400px"
               src="https://www.youtube.com/embed/wDjeBNv6ip0"
               title="Intro Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

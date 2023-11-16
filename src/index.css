@@ -1381,11 +1381,14 @@ footer .container .footer-box ul li a {
 
 .NotFound{
   height: auto;
+  align-items: center;
+  justify-content: center;
 }
 .notFoundPic{
   height: auto;
   width: auto;
   max-width: 100%;
+ 
 }
 
 .video-overlay {
@@ -1402,8 +1405,10 @@ footer .container .footer-box ul li a {
 
 .video-container {
   position: relative;
-  max-width: 80%;
-  max-height: 80%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+
 }
 
 .close-button {
@@ -1419,4 +1424,12 @@ footer .container .footer-box ul li a {
 
 .close-button:hover {
   color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .close-button {
+    font-size: 16px;
+    top: 5px;
+    right: 5px;
+  } 
 }

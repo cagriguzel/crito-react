@@ -25,14 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='*' element={<NotFound />} />
         <Route path='/news' element={<News />} />
         <Route path='/news/:id' element={<ArticleDetails/>} />
-      
-       
-        
-        
     
-        
-       
-
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
